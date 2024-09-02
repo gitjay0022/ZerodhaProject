@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Akshay Gulhane\git\KiteZerodhaTest\InvestmentBankZerodha\RegressionSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.IntradayOrderExecution" class="method navigator-link" hash-for-method="buyOrderOfDixonTech">buyOrderOfDixonTech</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.IntradayOrderExecution" class="method navigator-link" hash-for-method="buyOrderOfDixonTech">buyOrderOfDixonTech</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.IntradayOrderExecution" class="method navigator-link" hash-for-method="buyOrderOfTataMOtors">buyOrderOfTataMOtors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.IntradayOrderExecution" class="method navigator-link" hash-for-method="buyOrderOfTataMOtors">buyOrderOfTataMOtors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyAccHolderName">verifyAccHolderName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyAccHolderName">verifyAccHolderName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyDashBoardTab">verifyDashBoardTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyDashBoardTab">verifyDashBoardTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyFundsTab">verifyFundsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyFundsTab">verifyFundsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyHoldingsTab">verifyHoldingsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyHoldingsTab">verifyHoldingsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyOrdersTab">verifyOrdersTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyOrdersTab">verifyOrdersTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyPositionTab">verifyPositionTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.AplicationHeaderVeification" class="method navigator-link" hash-for-method="verifyPositionTab">verifyPositionTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.IntradayOrderExecution</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyOrderOfDixonTech">
+                  </a> <!-- buyOrderOfDixonTech -->
+                  <span class="method-name">buyOrderOfDixonTech</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyOrderOfDixonTech">
+                  </a> <!-- buyOrderOfDixonTech -->
+                  <span class="method-name">buyOrderOfDixonTech</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyOrderOfTataMOtors">
+                  </a> <!-- buyOrderOfTataMOtors -->
+                  <span class="method-name">buyOrderOfTataMOtors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyOrderOfTataMOtors">
+                  </a> <!-- buyOrderOfTataMOtors -->
+                  <span class="method-name">buyOrderOfTataMOtors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.AplicationHeaderVeification</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccHolderName">
+                  </a> <!-- verifyAccHolderName -->
+                  <span class="method-name">verifyAccHolderName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccHolderName">
+                  </a> <!-- verifyAccHolderName -->
+                  <span class="method-name">verifyAccHolderName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashBoardTab">
+                  </a> <!-- verifyDashBoardTab -->
+                  <span class="method-name">verifyDashBoardTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDashBoardTab">
+                  </a> <!-- verifyDashBoardTab -->
+                  <span class="method-name">verifyDashBoardTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFundsTab">
+                  </a> <!-- verifyFundsTab -->
+                  <span class="method-name">verifyFundsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFundsTab">
+                  </a> <!-- verifyFundsTab -->
+                  <span class="method-name">verifyFundsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHoldingsTab">
+                  </a> <!-- verifyHoldingsTab -->
+                  <span class="method-name">verifyHoldingsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHoldingsTab">
+                  </a> <!-- verifyHoldingsTab -->
+                  <span class="method-name">verifyHoldingsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrdersTab">
+                  </a> <!-- verifyOrdersTab -->
+                  <span class="method-name">verifyOrdersTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOrdersTab">
+                  </a> <!-- verifyOrdersTab -->
+                  <span class="method-name">verifyOrdersTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPositionTab">
+                  </a> <!-- verifyPositionTab -->
+                  <span class="method-name">verifyPositionTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPositionTab">
+                  </a> <!-- verifyPositionTab -->
+                  <span class="method-name">verifyPositionTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Akshay Gulhane\git\KiteZerodhaTest\InvestmentBankZerodha\RegressionSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.IntradayOrderExecution&quot;/&gt;
+      &lt;class name=&quot;test.AplicationHeaderVeification&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.IntradayOrderExecution&quot;/&gt;
+      &lt;class name=&quot;test.AplicationHeaderVeification&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EdgeTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">ChromeTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAccHolderName')
+data.setCell(0, 2, 'test.AplicationHeaderVeification')
+data.setCell(0, 3, 6497);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAccHolderName')
+data.setCell(1, 2, 'test.AplicationHeaderVeification')
+data.setCell(1, 3, 3633);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyPositionTab')
+data.setCell(2, 2, 'test.AplicationHeaderVeification')
+data.setCell(2, 3, 2684);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyOrdersTab')
+data.setCell(3, 2, 'test.AplicationHeaderVeification')
+data.setCell(3, 3, 2363);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyFundsTab')
+data.setCell(4, 2, 'test.AplicationHeaderVeification')
+data.setCell(4, 3, 2136);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyOrdersTab')
+data.setCell(5, 2, 'test.AplicationHeaderVeification')
+data.setCell(5, 3, 2118);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyHoldingsTab')
+data.setCell(6, 2, 'test.AplicationHeaderVeification')
+data.setCell(6, 3, 1970);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyDashBoardTab')
+data.setCell(7, 2, 'test.AplicationHeaderVeification')
+data.setCell(7, 3, 1791);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyHoldingsTab')
+data.setCell(8, 2, 'test.AplicationHeaderVeification')
+data.setCell(8, 3, 1538);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyPositionTab')
+data.setCell(9, 2, 'test.AplicationHeaderVeification')
+data.setCell(9, 3, 1518);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyFundsTab')
+data.setCell(10, 2, 'test.AplicationHeaderVeification')
+data.setCell(10, 3, 1500);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyDashBoardTab')
+data.setCell(11, 2, 'test.AplicationHeaderVeification')
+data.setCell(11, 3, 1489);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'buyOrderOfDixonTech')
+data.setCell(12, 2, 'test.IntradayOrderExecution')
+data.setCell(12, 3, 12);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'buyOrderOfTataMOtors')
+data.setCell(13, 2, 'test.IntradayOrderExecution')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'buyOrderOfDixonTech')
+data.setCell(14, 2, 'test.IntradayOrderExecution')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'buyOrderOfTataMOtors')
+data.setCell(15, 2, 'test.IntradayOrderExecution')
+data.setCell(15, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AplicationHeaderVeification</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.IntradayOrderExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Edge)</span>
+                <span class="method-start">55154 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMObject</span>
+                <span class="method-start">103390 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">103730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyOrderOfDixonTech</span>
+                <span class="method-start">110807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=buyOrderOfDixonTech status=SUCCESS method=IntradayOrderExecution.buyOrderOfDixonTec...)</span>
+                <span class="method-start">110822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">133603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyOrderOfTataMOtors</span>
+                <span class="method-start">136252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=buyOrderOfTataMOtors status=SUCCESS method=IntradayOrderExecution.buyOrderOfTataMOt...)</span>
+                <span class="method-start">136260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deletePOMObject</span>
+                <span class="method-start">142639 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AplicationHeaderVeification</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMObject</span>
+                <span class="method-start">142644 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">142648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccHolderName</span>
+                <span class="method-start">145836 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyAccHolderName status=SUCCESS method=AplicationHeaderVeification.verifyAccHold...)</span>
+                <span class="method-start">152336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">157014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOrdersTab</span>
+                <span class="method-start">161922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyOrdersTab status=SUCCESS method=AplicationHeaderVeification.verifyOrdersTab()...)</span>
+                <span class="method-start">164042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">167797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPositionTab</span>
+                <span class="method-start">170867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyPositionTab status=SUCCESS method=AplicationHeaderVeification.verifyPositionT...)</span>
+                <span class="method-start">172388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">176169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDashBoardTab</span>
+                <span class="method-start">179024 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyDashBoardTab status=SUCCESS method=AplicationHeaderVeification.verifyDashBoar...)</span>
+                <span class="method-start">180515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">184886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFundsTab</span>
+                <span class="method-start">187777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyFundsTab status=SUCCESS method=AplicationHeaderVeification.verifyFundsTab()[p...)</span>
+                <span class="method-start">189917 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">193320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHoldingsTab</span>
+                <span class="method-start">196309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyHoldingsTab status=SUCCESS method=AplicationHeaderVeification.verifyHoldingsT...)</span>
+                <span class="method-start">198280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deletePOMObject</span>
+                <span class="method-start">201580 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">201582 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.IntradayOrderExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">202699 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AplicationHeaderVeification</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-start">203573 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.IntradayOrderExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-start">218651 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMObject</span>
+                <span class="method-start">224904 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">224906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyOrderOfDixonTech</span>
+                <span class="method-start">228853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=buyOrderOfDixonTech status=SUCCESS method=IntradayOrderExecution.buyOrderOfDixonTec...)</span>
+                <span class="method-start">228856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">235512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyOrderOfTataMOtors</span>
+                <span class="method-start">238126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=buyOrderOfTataMOtors status=SUCCESS method=IntradayOrderExecution.buyOrderOfTataMOt...)</span>
+                <span class="method-start">238128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deletePOMObject</span>
+                <span class="method-start">243087 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.AplicationHeaderVeification</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createPOMObject</span>
+                <span class="method-start">243088 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">243093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAccHolderName</span>
+                <span class="method-start">245790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyAccHolderName status=SUCCESS method=AplicationHeaderVeification.verifyAccHold...)</span>
+                <span class="method-start">249426 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">252750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyOrdersTab</span>
+                <span class="method-start">255504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyOrdersTab status=SUCCESS method=AplicationHeaderVeification.verifyOrdersTab()...)</span>
+                <span class="method-start">257868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">264040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPositionTab</span>
+                <span class="method-start">266508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyPositionTab status=SUCCESS method=AplicationHeaderVeification.verifyPositionT...)</span>
+                <span class="method-start">269194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">278236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDashBoardTab</span>
+                <span class="method-start">280776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyDashBoardTab status=SUCCESS method=AplicationHeaderVeification.verifyDashBoar...)</span>
+                <span class="method-start">282568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">291300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFundsTab</span>
+                <span class="method-start">293826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyFundsTab status=SUCCESS method=AplicationHeaderVeification.verifyFundsTab()[p...)</span>
+                <span class="method-start">295326 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">loginZerodha</span>
+                <span class="method-start">303640 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHoldingsTab</span>
+                <span class="method-start">306108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logOutZerodha([TestResult name=verifyHoldingsTab status=SUCCESS method=AplicationHeaderVeification.verifyHoldingsT...)</span>
+                <span class="method-start">307647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deletePOMObject</span>
+                <span class="method-start">315976 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">315977 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.IntradayOrderExecution</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">316354 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

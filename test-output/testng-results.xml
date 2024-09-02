@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-17T09:53:57 IST" name="Suite" finished-at="2022-02-17T09:59:14 IST" duration-ms="316676">
+    <groups>
+    </groups>
+    <test started-at="2022-02-17T09:53:57 IST" name="EdgeTest" finished-at="2022-02-17T09:57:20 IST" duration-ms="203208">
+      <class name="test.IntradayOrderExecution">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:54:52 IST" name="launchBrowser" finished-at="2022-02-17T09:55:40 IST" duration-ms="47344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:55:41 IST" name="createPOMObject" finished-at="2022-02-17T09:55:41 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:55:41 IST" name="loginZerodha" finished-at="2022-02-17T09:55:48 IST" duration-ms="7076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="buyOrderOfDixonTech()[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:55:48 IST" name="buyOrderOfDixonTech" finished-at="2022-02-17T09:55:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyOrderOfDixonTech -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:55:48 IST" name="logOutZerodha" finished-at="2022-02-17T09:56:11 IST" duration-ms="22775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buyOrderOfDixonTech status=SUCCESS method=IntradayOrderExecution.buyOrderOfDixonTech()[pri:0, instance:test.IntradayOrderExecution@121314f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:56:11 IST" name="loginZerodha" finished-at="2022-02-17T09:56:13 IST" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="buyOrderOfTataMOtors()[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:56:13 IST" name="buyOrderOfTataMOtors" finished-at="2022-02-17T09:56:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyOrderOfTataMOtors -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:56:13 IST" name="logOutZerodha" finished-at="2022-02-17T09:56:20 IST" duration-ms="6377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buyOrderOfTataMOtors status=SUCCESS method=IntradayOrderExecution.buyOrderOfTataMOtors()[pri:0, instance:test.IntradayOrderExecution@121314f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="deletePOMObject()[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:56:20 IST" name="deletePOMObject" finished-at="2022-02-17T09:56:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.IntradayOrderExecution@121314f7]" started-at="2022-02-17T09:57:20 IST" name="closeBrowser" finished-at="2022-02-17T09:57:20 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.IntradayOrderExecution -->
+      <class name="test.AplicationHeaderVeification">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:53:57 IST" name="launchBrowser" finished-at="2022-02-17T09:54:52 IST" duration-ms="55153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:20 IST" name="createPOMObject" finished-at="2022-02-17T09:56:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:20 IST" name="loginZerodha" finished-at="2022-02-17T09:56:23 IST" duration-ms="3188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyAccHolderName()[pri:1, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:23 IST" name="verifyAccHolderName" finished-at="2022-02-17T09:56:30 IST" duration-ms="6497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccHolderName -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:30 IST" name="logOutZerodha" finished-at="2022-02-17T09:56:34 IST" duration-ms="4676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccHolderName status=SUCCESS method=AplicationHeaderVeification.verifyAccHolderName()[pri:1, instance:test.AplicationHeaderVeification@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:34 IST" name="loginZerodha" finished-at="2022-02-17T09:56:39 IST" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyOrdersTab()[pri:2, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:39 IST" name="verifyOrdersTab" finished-at="2022-02-17T09:56:41 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:41 IST" name="logOutZerodha" finished-at="2022-02-17T09:56:45 IST" duration-ms="3754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrdersTab status=SUCCESS method=AplicationHeaderVeification.verifyOrdersTab()[pri:2, instance:test.AplicationHeaderVeification@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:45 IST" name="loginZerodha" finished-at="2022-02-17T09:56:48 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyPositionTab()[pri:3, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:48 IST" name="verifyPositionTab" finished-at="2022-02-17T09:56:50 IST" duration-ms="1518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPositionTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:50 IST" name="logOutZerodha" finished-at="2022-02-17T09:56:53 IST" duration-ms="3779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPositionTab status=SUCCESS method=AplicationHeaderVeification.verifyPositionTab()[pri:3, instance:test.AplicationHeaderVeification@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:53 IST" name="loginZerodha" finished-at="2022-02-17T09:56:56 IST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyDashBoardTab()[pri:4, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:56 IST" name="verifyDashBoardTab" finished-at="2022-02-17T09:56:58 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:56:58 IST" name="logOutZerodha" finished-at="2022-02-17T09:57:02 IST" duration-ms="4370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDashBoardTab status=SUCCESS method=AplicationHeaderVeification.verifyDashBoardTab()[pri:4, instance:test.AplicationHeaderVeification@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:02 IST" name="loginZerodha" finished-at="2022-02-17T09:57:05 IST" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyFundsTab()[pri:5, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:05 IST" name="verifyFundsTab" finished-at="2022-02-17T09:57:07 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundsTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:07 IST" name="logOutZerodha" finished-at="2022-02-17T09:57:11 IST" duration-ms="3402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFundsTab status=SUCCESS method=AplicationHeaderVeification.verifyFundsTab()[pri:5, instance:test.AplicationHeaderVeification@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:11 IST" name="loginZerodha" finished-at="2022-02-17T09:57:14 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyHoldingsTab()[pri:6, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:14 IST" name="verifyHoldingsTab" finished-at="2022-02-17T09:57:15 IST" duration-ms="1970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHoldingsTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:15 IST" name="logOutZerodha" finished-at="2022-02-17T09:57:19 IST" duration-ms="3299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHoldingsTab status=SUCCESS method=AplicationHeaderVeification.verifyHoldingsTab()[pri:6, instance:test.AplicationHeaderVeification@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="deletePOMObject()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:19 IST" name="deletePOMObject" finished-at="2022-02-17T09:57:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.AplicationHeaderVeification@2e6a8155]" started-at="2022-02-17T09:57:19 IST" name="closeBrowser" finished-at="2022-02-17T09:57:20 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.AplicationHeaderVeification -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-02-17T09:57:21 IST" name="ChromeTest" finished-at="2022-02-17T09:59:14 IST" duration-ms="113092">
+      <class name="test.IntradayOrderExecution">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:36 IST" name="launchBrowser" finished-at="2022-02-17T09:57:42 IST" duration-ms="6252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:42 IST" name="createPOMObject" finished-at="2022-02-17T09:57:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:42 IST" name="loginZerodha" finished-at="2022-02-17T09:57:46 IST" duration-ms="3947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="buyOrderOfDixonTech()[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:46 IST" name="buyOrderOfDixonTech" finished-at="2022-02-17T09:57:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyOrderOfDixonTech -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:46 IST" name="logOutZerodha" finished-at="2022-02-17T09:57:53 IST" duration-ms="6655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buyOrderOfDixonTech status=SUCCESS method=IntradayOrderExecution.buyOrderOfDixonTech()[pri:0, instance:test.IntradayOrderExecution@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:53 IST" name="loginZerodha" finished-at="2022-02-17T09:57:55 IST" duration-ms="2614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="buyOrderOfTataMOtors()[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:55 IST" name="buyOrderOfTataMOtors" finished-at="2022-02-17T09:57:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyOrderOfTataMOtors -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:57:55 IST" name="logOutZerodha" finished-at="2022-02-17T09:58:00 IST" duration-ms="4959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buyOrderOfTataMOtors status=SUCCESS method=IntradayOrderExecution.buyOrderOfTataMOtors()[pri:0, instance:test.IntradayOrderExecution@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="deletePOMObject()[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:58:00 IST" name="deletePOMObject" finished-at="2022-02-17T09:58:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.IntradayOrderExecution@8f2ef19]" started-at="2022-02-17T09:59:14 IST" name="closeBrowser" finished-at="2022-02-17T09:59:14 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.IntradayOrderExecution -->
+      <class name="test.AplicationHeaderVeification">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:57:21 IST" name="launchBrowser" finished-at="2022-02-17T09:57:36 IST" duration-ms="15078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:00 IST" name="createPOMObject" finished-at="2022-02-17T09:58:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:00 IST" name="loginZerodha" finished-at="2022-02-17T09:58:03 IST" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyAccHolderName()[pri:1, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:03 IST" name="verifyAccHolderName" finished-at="2022-02-17T09:58:07 IST" duration-ms="3633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccHolderName -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:07 IST" name="logOutZerodha" finished-at="2022-02-17T09:58:10 IST" duration-ms="3323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAccHolderName status=SUCCESS method=AplicationHeaderVeification.verifyAccHolderName()[pri:1, instance:test.AplicationHeaderVeification@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:10 IST" name="loginZerodha" finished-at="2022-02-17T09:58:13 IST" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyOrdersTab()[pri:2, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:13 IST" name="verifyOrdersTab" finished-at="2022-02-17T09:58:15 IST" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:15 IST" name="logOutZerodha" finished-at="2022-02-17T09:58:21 IST" duration-ms="6171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrdersTab status=SUCCESS method=AplicationHeaderVeification.verifyOrdersTab()[pri:2, instance:test.AplicationHeaderVeification@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:21 IST" name="loginZerodha" finished-at="2022-02-17T09:58:24 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyPositionTab()[pri:3, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:24 IST" name="verifyPositionTab" finished-at="2022-02-17T09:58:26 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPositionTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:26 IST" name="logOutZerodha" finished-at="2022-02-17T09:58:35 IST" duration-ms="9042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPositionTab status=SUCCESS method=AplicationHeaderVeification.verifyPositionTab()[pri:3, instance:test.AplicationHeaderVeification@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:35 IST" name="loginZerodha" finished-at="2022-02-17T09:58:38 IST" duration-ms="2540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyDashBoardTab()[pri:4, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:38 IST" name="verifyDashBoardTab" finished-at="2022-02-17T09:58:40 IST" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:40 IST" name="logOutZerodha" finished-at="2022-02-17T09:58:49 IST" duration-ms="8731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDashBoardTab status=SUCCESS method=AplicationHeaderVeification.verifyDashBoardTab()[pri:4, instance:test.AplicationHeaderVeification@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:49 IST" name="loginZerodha" finished-at="2022-02-17T09:58:51 IST" duration-ms="2526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyFundsTab()[pri:5, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:51 IST" name="verifyFundsTab" finished-at="2022-02-17T09:58:53 IST" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundsTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:58:53 IST" name="logOutZerodha" finished-at="2022-02-17T09:59:01 IST" duration-ms="8313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFundsTab status=SUCCESS method=AplicationHeaderVeification.verifyFundsTab()[pri:5, instance:test.AplicationHeaderVeification@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="loginZerodha()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:59:01 IST" name="loginZerodha" finished-at="2022-02-17T09:59:03 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZerodha -->
+        <test-method signature="verifyHoldingsTab()[pri:6, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:59:03 IST" name="verifyHoldingsTab" finished-at="2022-02-17T09:59:05 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHoldingsTab -->
+        <test-method is-config="true" signature="logOutZerodha(org.testng.ITestResult)[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:59:05 IST" name="logOutZerodha" finished-at="2022-02-17T09:59:13 IST" duration-ms="8329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHoldingsTab status=SUCCESS method=AplicationHeaderVeification.verifyHoldingsTab()[pri:6, instance:test.AplicationHeaderVeification@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutZerodha -->
+        <test-method is-config="true" signature="deletePOMObject()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:59:13 IST" name="deletePOMObject" finished-at="2022-02-17T09:59:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePOMObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.AplicationHeaderVeification@470734c3]" started-at="2022-02-17T09:59:13 IST" name="closeBrowser" finished-at="2022-02-17T09:59:14 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.AplicationHeaderVeification -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

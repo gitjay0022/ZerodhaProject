@@ -15,50 +15,50 @@ import pom.PinPage;
 import utils.Utility;
 
 public class Test11 extends Browser {
-	
 
 	public static void main(String[] args) throws EncryptedDocumentException, IOException, InterruptedException {
-	
-	  HomePage homePage;
-	 LoginPage loginPage;
-	PinPage pinPage;
-	System.setProperty("webdriver.chrome.driver",
-			"E:\\Software Testing\\Automation Tool\\chromedriver_win32\\chromedriver.exe");
-	ChromeOptions options = new ChromeOptions();
-	options.addArguments("--disable-notifications");
-	WebDriver driver = new ChromeDriver(options);
-		homePage=new HomePage(driver);	
-		pinPage=new PinPage(driver);
+
+		String jay = "";
+		HomePage homePage;
+		LoginPage loginPage;
+		PinPage pinPage;
+		System.setProperty("webdriver.chrome.driver",
+				"E:\\Software Testing\\Automation Tool\\chromedriver_win32\\chromedriver.exe");
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		WebDriver driver = new ChromeDriver(options);
+		homePage = new HomePage(driver);
+		pinPage = new PinPage(driver);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://kite.zerodha.com/");
-		loginPage=new LoginPage(driver);
-		String userName=Utility.getDataFromExcel("UserNamePass",1,0);
+		loginPage = new LoginPage(driver);
+		String userName = Utility.getDataFromExcel("UserNamePass", 1, 0);
 		loginPage.userNameTab(userName);
-		String pass=Utility.getDataFromExcel("UserNamePass",1,1);
+		String pass = Utility.getDataFromExcel("UserNamePass", 1, 1);
 		loginPage.passwordTab(pass);
 		loginPage.logInTab();
 		Thread.sleep(1000);
-		String pin=Utility.getDataFromExcel("UserNamePass",1,2);
+		String pin = Utility.getDataFromExcel("UserNamePass", 1, 2);
 		pinPage.pinTab(pin);
 		pinPage.submitButtonTab();
-		String TataShare=Utility.getDataFromExcel("SharePurchase", 1, 0);
+		String TataShare = Utility.getDataFromExcel("SharePurchase", 1, 0);
 		homePage.clickOnSearchBar(TataShare);
 		Thread.sleep(1000);
 		homePage.moveOnShare();
 		homePage.clickOnbuy();
 		Thread.sleep(1000);
 		homePage.clickOnIntraDay();
-		String qty=Utility.getDataFromExcel("SharePurchase", 1, 1);
+		String qty = Utility.getDataFromExcel("SharePurchase", 1, 1);
 		homePage.enterQty(qty);
 		Thread.sleep(1000);
 		homePage.clickOnStopLoss();
 		Thread.sleep(1000);
-		String price=Utility.getDataFromExcel("SharePurchase", 1, 2);
+		String price = Utility.getDataFromExcel("SharePurchase", 1, 2);
 		homePage.enterPrice(price);
-		String triggerPrice=Utility.getDataFromExcel("SharePurchase", 1, 3);
+		String triggerPrice = Utility.getDataFromExcel("SharePurchase", 1, 3);
 		homePage.enterPrice(triggerPrice);
 		homePage.clickOnCancel();
 		System.out.println("Oreder Executed");
-		
+
 	}
 }

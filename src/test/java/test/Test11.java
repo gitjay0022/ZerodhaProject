@@ -18,7 +18,7 @@ public class Test11 extends Browser {
 
 	public static void main(String[] args) throws EncryptedDocumentException, IOException, InterruptedException {
 
-		String jay = "Jay Loharkar";
+		String jay = "Dhiraj Pawar";
 		HomePage homePage;
 		LoginPage loginPage;
 		PinPage pinPage;
